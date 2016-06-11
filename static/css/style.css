@@ -1,0 +1,146 @@
+html,body{
+	background-color: #ffffff;
+	margin:0;
+}
+
+#container{
+	padding-top: 0.6rem;
+	padding-bottom: 7rem;
+	background-color: #F2F2F2;
+}
+
+#home{
+	width: 100%;
+}
+
+#name{
+	font-family: simHei;
+	margin-top: 0.8rem;
+	margin-left: 0.54rem;
+	font-weight: lighter;
+	font-size: 0.8rem;
+	color: #333333;
+}
+
+#thank{
+	font-family: simHei;
+	font-size: 0.54rem;
+	color: #999999;
+	margin-left: 0.54rem;
+}
+
+#electric{
+	position:relative;
+}
+
+.ui-content{
+	padding-top:0; 
+	overflow: hidden;
+}
+.ui-btn-up-c{
+	border: 0;
+	background: #ffffff;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .ui-icon-switch {
+    background-image: url( "./../img/switch_on.png" );
+    background-size: 1.1rem 1.1rem;
+    width: 1.1rem;
+    height: 1.1rem;
+    background-color: #ffffff;
+    margin-right: 0.7rem;
+  }
+}
+.ui-btn-icon-left>.ui-btn-inner>.ui-icon, .ui-btn-icon-right>.ui-btn-inner>.ui-icon{
+	margin-top: -30px;
+}
+
+li{
+	height: 3.8rem;
+}
+
+.ui-li .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li{
+	padding-top: 0;
+}
+
+.list_img{
+	width: 1.3rem;
+	top:1.2rem;
+	left: 0.54rem;
+}
+
+.airconditioning{
+	top:1.65rem;
+}
+
+li span{
+	font-family: simHei;
+	font-size: 0.7rem;
+	line-height: 3.8rem;
+	margin-left: 0.5rem;
+	color: #333333;
+	font-weight: lighter;
+}
+
+#feedback_img{
+	padding-left: 0.54rem;
+	padding-top: 0.62rem;
+	background-color: #ffffff;
+}
+
+#feedback_textarea{
+	background-color: #ffffff;
+	width: 100%;
+}
+
+textarea{
+	width: 14.8rem;
+	height: 12rem;
+	margin-top: 0.5rem;
+	margin-left: 0.54rem;
+	border: 0;
+	color: #553333;
+	font-family: simHei;
+	letter-spacing: 0.05rem;
+	font-size: 0.54rem;
+	line-height: 1rem;
+}
+
+textarea::-webkit-input-placeholder{
+	color: #B5B7B7;
+	font-family: simHei;
+	letter-spacing: 0.05rem;
+	font-size: 0.54rem;
+	line-height: 1rem;
+}
+
+#feedback_button{
+	border: 0;
+	border-radius: 0.2rem;
+	width: 14rem;
+	height: 2rem;
+	background-image: url(./../img/button.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left:1rem;
+	margin-top: 0.6rem;
+	padding: 0;
+	color: #ffffff;
+}
+
+#feedback_button span{
+	font-family: simHei;
+	font-size: 0.72rem;
+}
+
+.small_img{
+	width: 3.55rem;
+	height: 3.55rem;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.plus{
+	background-image: url(./../img/plus.png);	
+}
