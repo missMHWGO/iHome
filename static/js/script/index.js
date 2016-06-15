@@ -20,7 +20,12 @@
                 })
                 .done(function(msg) {
                     alert(msg);
+                    var device = msg.content.device;
+                    for (var i = device.length - 1; i >= 0; i--) {
+                    	device[i].devid
+                    }
                 });
+
         },
         bindEvent: function() {
             $(".plus")[0].onclick = function() {
